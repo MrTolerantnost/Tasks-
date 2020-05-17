@@ -8,7 +8,7 @@ public class Task_7 {
 
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
-        System.out.print("Input the flat number: ");
+        System.out.print("Input some text");
         String  str = in.nextLine();
 
         char b = 'b';
@@ -26,7 +26,7 @@ public class Task_7 {
             i++;
         }
 
-        System.out.println(rez);
+        System.out.println("Quantity of \"b\" in \""+ str +"\" is: "+rez);
     }
 
 }

@@ -15,14 +15,21 @@ public class Task_2 {
         System.out.print("input number of stripes: ");
         int num = in.nextInt();
 
-        for(int i=0; i==4; i++){
-        for(int j=0; i==num; i++){
+        for(int i=0; i<=5; i++){
+            for(int j=0; j<num; j++){
 
-            j++;
+                if(j%2 != 0){
+                System.out.print("***");
+                } else{
+                    System.out.print("+++");
+                }
+
+            }
+
+        System.out.println();
 
         }
-        i++;
-        }
-        System.out.println("num");
+
+
     }
 }
